@@ -201,6 +201,22 @@ margin-bottom: 8px;
     text-transform: capitalize;
     color: #2e2f42;}
 
+.icon-block {display: flex;
+width: 100%;
+height: 112px;
+background-color: #f4f4fd;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.advantages-icon {width: 64px;
+height: 64px;
+justify-content: center;
+align-items: center;}
+
 .section-three {
     background-color: #f4f4fd;
     padding-top: 120px;
@@ -269,6 +285,9 @@ width: 40px;
 padding-top: 100px;
 padding-bottom: 100px;}
 
+.footer-container {display: flex;
+    }
+
 .footer-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -293,8 +312,39 @@ font-weight: 700;
 
  .footer-logo-studio {color: #F4F4FD;}
 
-.footer-container {
-      flex-direction: column;
+.footer-networks-block {display: flex;
+flex-direction: column;
+margin-left: 120px;}
+
+.footer-networks-list {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    }
+
+
+.footer-networks-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
 }
 
-        
+.footer-networks-link:hover {background-color: #31d0aa;;}
+
+.footer-networks-item {fill: #FFFFFF;
+align-items: center;
+}
+
+.footer-network-text {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    display: flex;
+            }
