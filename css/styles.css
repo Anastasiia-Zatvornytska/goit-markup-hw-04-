@@ -360,7 +360,7 @@ font-weight: 700;
 
 .footer-networks-block {display: flex;
 flex-direction: column;
-margin-left: 120px;}
+}
 
 .footer-networks-list {display: flex;
     justify-content: center;
